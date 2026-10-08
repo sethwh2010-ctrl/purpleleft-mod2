@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "purpleleft",
+  "version": "1.0.0",
+  "name": "Purple Left Mod",
+  "description": "Purple left side effect",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.purpleleft.mod.PurpleLeftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
